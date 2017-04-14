@@ -1,0 +1,38 @@
+.container {
+    border-top: 1px solid #dedede;
+    background: rgba(103, 181, 209, 0.06);
+    padding: 1em;
+}
+
+.inputBox {
+    width: 100%;
+    padding: 3px 12px;
+    margin-bottom:0.5em;
+    min-height: 22px;
+    min-height: 22px\9;
+    line-height: 1.4;
+    color: #222;
+    cursor: text;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.emailInputBox {
+    composes: inputBox;
+    width: 60%;
+}
+
+.commentButton {
+    padding:0.3em;
+    float:right;
+    vertical-align: middle;
+    text-align: center;
+    background: #0f88eb;
+    color: white;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+}

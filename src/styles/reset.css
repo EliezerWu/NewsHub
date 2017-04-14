@@ -1,0 +1,82 @@
+/*reset*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+body {
+    font-size: 14px;
+}
+
+time {
+    color:#888888;
+}
+
+p {
+    line-height: 1.7;
+}
+
+a {
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#888888;
+}
+
+a:hover {
+    color:#56ABE4;
+}
+
+/* set all elements' box-sizing to border-box*/
+
+html {
+    box-sizing: border-box;
+    display: block;
+    font-size: 12px;
+    font-family: 'Microsoft Yahei', sans-serif;
+}
+
+*,
+:before,
+:after {
+    box-sizing: inherit;
+}
+
+canvas {
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+
+.container {
+    padding: 2.5em 1.7em;
+    position: relative;
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
