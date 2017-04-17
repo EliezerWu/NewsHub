@@ -14,10 +14,10 @@ export class HeartsBackground extends React.Component {
         this.setCanvasSize();
         this.ctx.clearRect(0, 0, this.w, this.h);
         for (var i = 0; i < this.hearts.length; i++) {
-            var heart = this.hearts[i];
-            heart.image = new Image();
+            let heart = this.hearts[i];
+            /*heart.image = new Image();
             heart.image.style.height = heart.height;
-            heart.image.src = this.heartImage;
+            heart.image.src = this.heartImage;*/
             this.ctx.globalAlpha = heart.opacity;
             this.ctx.drawImage(heart.image, heart.x, heart.y, heart.width, heart.height);
         }
@@ -57,6 +57,10 @@ export class HeartsBackground extends React.Component {
                 width: scale * this.heartWidth,
                 opacity: scale
             });
+            this.hearts[a].image=new Image();//new Image()要在didmount中，否则移动端Canvas渲染不出图片
+            this.hearts[a].image.style.height =this.hearts[a].height;
+            this.hearts[a].image.src = this.heartImage;
+
         }
         setInterval(()=>this.draw(), 30);
     }
