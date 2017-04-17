@@ -9,12 +9,12 @@ export default class Comment extends React.Component {
             <div className={styles.container}>
                 <a className={styles.avatar}/>
                 <div className={styles.commentBody}>
-                    <div className="comment-header">
-                        <a className={styles.author}>吴</a>
+                    <div className={styles.commentHeader}>
+                        <a className={styles.author}>匿名</a>
                         <time dateTime="">2017-1-30</time>
                     </div>
                     <div className="comment-content">
-                        <p>前端，前端，前端前端前端前端前端前端</p>
+                        <p>女神下凡！</p>
                     </div>
                 </div>
             </div>

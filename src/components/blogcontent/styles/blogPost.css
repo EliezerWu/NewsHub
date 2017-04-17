@@ -4,11 +4,11 @@
 }
 
 .postTitle {
-    color: inherit;
+    color: black;
     display: inline-block;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-bottom: 10px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .postTitle:hover {
@@ -47,8 +47,10 @@
     position:relative;
     display: inline-block;
     border: none;
-    background:#ccc no-repeat center center url("/assets/no-image.jpg");
+    background-image: url("/assets/no-image.jpg");
     vertical-align: top;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -66,6 +68,8 @@
 }
 
 .excerpt {
+    max-height: 5em;
+    overflow: hidden;
     margin-bottom: 30px;
 }
 

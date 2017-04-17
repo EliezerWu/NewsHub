@@ -13,8 +13,9 @@ export default class Title extends React.Component {
         };
         return (
             <div style={styles}>
-                <h2>My Blog</h2>
-                <h3>A Blog</h3>
+                <h2>李小聪大事记</h2>
+                <br/>
+                <h3>李小聪的日记</h3>
             </div>
         )
     }

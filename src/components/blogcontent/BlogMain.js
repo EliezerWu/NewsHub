@@ -3,10 +3,11 @@
  */
 import React from "react";
 import BlogPost from "./BlogPost";
+import styles from './styles/blogmain.css'
 export default class BlogMain extends React.Component {
     render() {
         return (
-            <div className="blog-main">
+            <div className={styles.container}>
                 <BlogPost/>
             </div>
         )

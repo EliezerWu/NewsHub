@@ -1,8 +1,8 @@
 .container {
     margin: 0 0 1em 0;
     position: relative;
-    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.09);
-    border: 2px solid #67B5D1;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09);
+    border: 2px solid #dedede;
     border-radius: 7px;
 }
 
@@ -11,7 +11,7 @@
     display: inline-block;
     background: white;
     border-style: solid;
-    border-color: #67b5d1;
+    border-color: #dedede;
     border-width: 2px 2px 0 0;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);

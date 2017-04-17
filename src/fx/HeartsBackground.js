@@ -43,7 +43,6 @@ export class HeartsBackground extends React.Component {
     }
 
     componentDidMount() {
-        console.log(this);
         this.canvas = this.refs.canvas;
         this.setCanvasSize();
         this.ctx = this.canvas.getContext('2d');

@@ -2,15 +2,16 @@
  * Created by w on 2017/3/31.
  */
 import React from 'react'
+import styles from './styles/social.css'
 export default class Social extends React.Component {
     render(){
         return(
-            <div className="footer-socials-section">
-                <ul className="footer-socials">
-                    <li><a href="#" alt="weibo"/></li>
-                    <li><a href="#" alt="weixin"/></li>
-                    <li><a href="#" alt="github"/></li>
-                    <li><a href="#" alt="facebook"/></li>
+            <div className={styles.container}>
+                <ul className={styles.socials}>
+                    <li><a href="#" alt="weibo">微博</a></li>
+                    <li><a href="#" alt="weixin">微信</a></li>
+                    <li><a href="#" alt="github">Github</a></li>
+                    <li><a href="#" alt="facebook">Facebook</a></li>
                 </ul>
             </div>
         )

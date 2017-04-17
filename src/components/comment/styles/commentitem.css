@@ -21,7 +21,12 @@
     background-size: cover;
 }
 
+.commentHeader {
+    width: 100%;
+}
+
 .commentBody {
+    width: 100%;
     margin-left: 0.8em;
     display: inline-block;
 }
