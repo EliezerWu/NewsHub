@@ -16,7 +16,7 @@
     left: 0;
     position: absolute; /*necessary for z-index*/
     right: 0;
-    background: linear-gradient(to bottom, rgba(14, 14, 14, 0.3) 0%, rgba(0, 0, 0, 0.15) 75%, rgba(0, 0, 0, 0.1) 100%);
+    background: linear-gradient(to bottom, rgba(14, 14, 14, 0.71) 0%, rgba(0, 0, 0, 0.55) 75%, rgba(0, 0, 0, 0.31) 100%)
 }
 
 .banner {

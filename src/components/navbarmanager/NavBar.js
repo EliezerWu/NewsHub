@@ -3,6 +3,9 @@
  */
 import React from "react";
 import styles from "./styles/navbarmanager.css"
+import {
+    Link
+} from 'react-router-dom'
 export default  class NavBar extends React.Component {
     render() {
         var ListStyle = {
@@ -16,11 +19,11 @@ export default  class NavBar extends React.Component {
         return (
             <div className={(this.props.visible ? styles.visibleNavList : styles.navList)}>
                 <ul style={{width: '100%'}}>
-                    <li style={ListStyle}>首页</li>
-                    <li style={ListStyle}>简历</li>
-                    <li style={ListStyle}>技术</li>
-                    <li style={ListStyle}>生活</li>
-                    <li style={ListStyle}>demo</li>
+                    <li style={ListStyle}><Link to="/">首页</Link></li>
+                    <li style={ListStyle}><Link to="/mobile">移动</Link></li>
+                    <li style={ListStyle}><Link to="/enterprise">企业</Link></li>
+                    <li style={ListStyle}><Link to="/life">生活</Link></li>
+                    <li style={ListStyle}><Link to="/digital">数码</Link></li>
                 </ul>
             </div>
         );

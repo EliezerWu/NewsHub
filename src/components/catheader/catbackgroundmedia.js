@@ -1,11 +1,10 @@
 /**
- * Created by w on 2017/3/21.
+ * Created by w on 2017/5/26.
  */
 import React from "react";
-import {HeartsBackground} from "../../fx/HeartsBackground";
 import Image from "../../fx/newsheader";
-import styles from "./styles/backgroundmedia.css"
-export default class BackgroundMedia extends React.Component {
+import styles from "../header/styles/backgroundmedia.css"
+export default class CatBackgroundMedia extends React.Component {
     render() {
 
         return (

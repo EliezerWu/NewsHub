@@ -9,6 +9,8 @@ export default class BlogMain extends React.Component {
         return (
             <div className={styles.container}>
                 <BlogPost/>
+                <BlogPost/>
+                <BlogPost/> 
             </div>
         )
     }

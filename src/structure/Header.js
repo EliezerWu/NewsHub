@@ -17,7 +17,7 @@ export default class Header extends React.Component {
         return (
             <header className="header" style={styles}>
                 <BackgroundMedia/>
-                <Title/>
+                <Title />
             </header>
         )
     }

@@ -14,7 +14,7 @@ export default class Comment extends React.Component {
                         <time dateTime="">2017-1-30</time>
                     </div>
                     <div className="comment-content">
-                        <p>女神下凡！</p>
+                        <p>测试</p>
                     </div>
                 </div>
             </div>
